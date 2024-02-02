@@ -1,3 +1,7 @@
+### How to build:
+`$ sudo IMAGE_ARCH=armhf IMAGE_SUITE=jammy  ./build-image.sh`
+
+### Upstream Description:
 Script (derived from https://github.com/docker-32bit/ubuntu) to generate Ubuntu 32bit Docker images.
 
 The generated Docker images are available via [DockerHub](https://hub.docker.com/r/osrf/ubuntu_i386/).
